@@ -1,6 +1,6 @@
 # My ChatGpt WebApp
 
-This application was developed using ReactJS and the OpenAI API, with the help of ChatGPT3, an artificial intelligence model developed by OpenAI, which provided 65% of the source code. The remaining 35% was written by me, using my limited knowledge of ReactJS, which I am still learning.
+This application was developed using ReactJS and the OpenAI API, with the help of ChatGPT3, an artificial intelligence model developed by OpenAI, which provided 60% of the source code. The remaining 40% was written by me, using my limited knowledge of ReactJS, which I am still learning.
 
 I hope it can be useful to someone.
 
