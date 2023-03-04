@@ -11,18 +11,18 @@ export default function TextInput(props) {
   
     return (
       <div>
-        <h1 className="p-2 text-lg font-bold">
+        <h1 className="mx-8 py-4 text-lg text-neutral-400 font-mono underline underline-offset-8">
           Insert some text:
         </h1>
         <input
-          className='border m-2 p-2'
+          className='border mx-8 my-4 p-2 bg-neutral-300'
           type="text"
           value={props.text}
           onChange={handleTextChange}
           onKeyDown={handleKeyDown}
           disabled={props.disabled}
         />
-        <button onClick={props.onSendClick} className='border p-2' disabled={props.disabled}>send</button>
+        <button onClick={props.onSendClick} className='border-2 border-neutral-400 rounded-md bg-neutral-500 text-lg font-mono font-bold text-neutral-900 p-2' disabled={props.disabled}>send</button>
       </div>
     );
   }

@@ -54,9 +54,9 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='bg-neutral-900 h-screen'>
       <TextInput text={text} onTextChange={handleTextChange} onSendClick={handleSendClick} disabled={isSending} />
-      <ShowResponse response={response} isLoading={isSending} />
+      <ShowResponse isLoading={isSending} />
       <ResponseList responses={responses} />
     </div>
   );

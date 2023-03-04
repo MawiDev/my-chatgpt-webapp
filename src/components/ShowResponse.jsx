@@ -1,14 +1,12 @@
 export default function ShowResponse(props) {
     return (
       <div>
-        <h1 className="p-2 text-lg font-bold">
+        <h1 className="mx-8 my-4 text-lg text-neutral-400 font-mono underline underline-offset-8">
           Response:
         </h1>
         {props.isLoading ? (
-          <p className='border m-2 p-4'>Waiting for OpenAI...</p>
-        ) : (
-          <p className='border m-2 p-4'>{props.response}</p>
-        )}
+          <p className='mx-8 flex justify-center items-center border-2 rounded-md text-lg font-light font-sans bg-neutral-500 text-neutral-200 p-4'>Waiting for OpenAI...</p>
+        ) : null }
       </div>
     );
   }
